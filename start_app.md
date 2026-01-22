@@ -32,7 +32,7 @@ Execute the following command to start the server:
 uvicorn app:app --reload
 ```
 
-The system will be active at `http://127.0.0.1:8000`.
+The system will bind to `0.0.0.0` and default to port `8000`. You can override the port by setting the `PORT` environment variable.
 
 ## System Overview
 
